@@ -1,0 +1,56 @@
+public class Term {
+
+
+    public static Term nextTermFrom(PushbackInputStream s) {
+        int sign = 1;
+        int coef = 1;
+        ArrayList<Character> vars = new ArrayList<>();
+        ArrayList<Integer> exps = new ArrayList<>();
+        try {
+            if (s.available() == 0)
+                return null;
+
+            char ch = (char)s.read();
+            if (ch == '-') {
+                sign = -1;
+                ch = (char)s.read();
+            } else if (ch == '+') {
+                ch = (char)s.read();
+            }
+            if (!Character.isDigit(ch)) {
+                coef = 1;
+            } else {
+                coef = 0;
+                while (Character.isDigit(ch)) {
+                    coef = coef * 10 + ch - '0';
+                    ch = (char)s.read();
+                }
+            }
+            coef *= sign;
+            while (Character.isLowerCase(ch)) {
+                vars.add(ch);
+                ch = (char)s.read();
+                int exp;
+                if (ch == '^') {
+                    exp = 0;
+                    ch = (char)s.read();
+                    while (Character.isDigit(ch)) {
+                        exp = exp * 10 + ch - '0';
+                        ch = (char)s.read();
+                    }
+                } else {
+                    exp = 1;
+                }
+                exps.add(exp);
+            }
+            s.unread(ch);
+            // At this point the variables hold the following information about the term:
+            // coef - The coefficient of the term
+            // vars - The variables in the term
+            // exps - The exponent of the corresponding variable from vars
+        } catch (IOException e) {
+            return null;
+        }
+    }
+
+}
