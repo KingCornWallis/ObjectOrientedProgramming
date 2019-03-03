@@ -1,0 +1,26 @@
+description: You are in a lounge of sorts. There are some couches and tables, but nothing very interesting. The staircase leading up is locked, and there is a door to the north.
+
+shortDescription: You are in the lounge. The upward staircase is locked, and there is a door to the north.
+
+specialDescription: You are in the lounge. There is a staircase leading up, and a door to the north.
+
+exits: U, N
+
+lockedDirection: up
+
+takeItem: null
+
+useItem: key
+
+specialAction: null
+
+itemDialogue: You unlocked the staircase! You can now go up!
+
+actionDialogue: null
+
+up: RoomL
+down: null
+north: RoomI
+south: null
+east: null
+west: null

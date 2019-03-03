@@ -1,0 +1,26 @@
+description: You are in a large bedroom well furnished for a king, with a large whole in the middle. On the far side there is a bed with a what looks like a sharp axe below it, but can not be reached because of the whole. There is a door to the west.
+
+shortDescription: You are in a bedroom with a giant hole in the floor that leads down. There is an axe underneath the bed on the other side, but the hole is too large to cross. There is a door to the west.
+
+specialDescription: You are in a bedroom with a giant hole in the floor that goes down with a board set over it. There is also a door to the west.
+
+exits: D, W
+
+lockedDirection: null
+
+takeItem: axe
+
+useItem: board
+
+specialAction: null
+
+itemDialogue: You placed the board over the gap, and can now get to the axe!
+
+actionDialogue: null
+
+up: null
+down: RoomH
+north: null
+south: null
+east: RoomN
+west: null

@@ -1,0 +1,26 @@
+description: You are in a large kitchen with long counters and numerous cabinets. It seems like everything has been taken, but there is wrench on the ground next to the sink. There is only a door to the south.
+
+shortDescription: You are in the kitchen. There is a door to the south.
+
+specialDescription: You are in the kitchen. There is a door to the south.
+
+exits: S
+
+lockedDirection: null
+
+takeItem: wrench
+
+useItem: null
+
+specialAction: null
+
+itemDialogue: null
+
+actionDialogue: null
+
+up: null
+down: null
+north: null
+south: RoomA
+east: null
+west: null

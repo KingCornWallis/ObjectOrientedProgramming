@@ -1,0 +1,26 @@
+description: You are in a type of worship room. There are candles lit on the ceiling, and various depictions of biblical characters. There is only a door to the south. There is a locked safe in the corner.
+
+shortDescription: You are in the worship room, with one door to the south. There is a locked safe in the corner.
+
+specialDescription: You are in the worship room, with one door to the south.
+
+exits: S
+
+lockedDirection: null
+
+takeItem: cross
+
+useItem: null
+
+specialAction: unlock safe
+
+itemDialogue: null
+
+actionDialogue: You opened the safe with the code from the constellation!
+
+up: null
+down: null
+north: null
+south: RoomB
+east: null
+west: null

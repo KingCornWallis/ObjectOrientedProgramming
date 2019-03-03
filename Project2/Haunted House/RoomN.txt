@@ -1,0 +1,24 @@
+description: You are in a lobby with a peculiar bookcase against the north wall. There are blood stains on the carpeting and broken furniture in places. There is a door to the east.
+
+shortDescription: You are in the lobby with a suspcious bookcase. There is a door to the east.
+
+specialDescription: You are in the lobby with doors to the north and the east.
+
+exits: N, E
+
+lockedDirection: up
+
+takeItem: null
+
+useItem: null
+
+specialAction: arrange books
+
+actionDialogue: "You put the books in the order from the morse code lights! The bookcase opened leading to a room to the north!"
+
+up: null
+down: RoomA
+north: RoomP
+south: null
+east: RoomO
+west: null

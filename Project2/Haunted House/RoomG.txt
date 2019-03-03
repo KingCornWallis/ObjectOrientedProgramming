@@ -1,0 +1,26 @@
+description: You are in a very dark passageway, and the ground is still wet from the flood. It is impossible to proceed without light. The only exit you can see is to the west where you entered.
+
+shortDescription: You are in the dark passageway. You can’t see anything. There is a door to the west.
+
+specialDescription: You are in the damp passageway. There are doors to the east and west.
+
+exits: E, W
+
+lockedDirection: east
+
+takeItem: null
+
+useItem: flashlight
+
+specialAction: Null
+
+itemDialogue: You can now see there is a door far to the east.
+
+actionDialogue: null
+
+up: null
+down: null
+north: null
+south: null
+east: RoomJ
+west: RoomD

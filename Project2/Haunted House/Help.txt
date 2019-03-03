@@ -1,0 +1,17 @@
+Here are commands you can use:
+
+go up
+go down
+go north
+go south
+go east
+go west
+
+description
+
+take <item>
+use <item>
+examine <item>
+drop <item>
+
+inventory

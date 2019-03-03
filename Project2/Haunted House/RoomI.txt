@@ -1,0 +1,27 @@
+description: You are in a what looks like a room that was still being constructed, but since abandoned. There are several tools that appear too rusty to use, as well as a tall board sitting up against the wall. There are doors to the south, east, and west.
+
+shortDescription: You are in an unfinished room. There are doors to the south, east, and west.
+
+specialDescription: You are in an unfinished room. There are doors to the south, east, and west.
+
+
+exits: S, E, W
+
+lockedDirection: null
+
+takeItem: board
+
+useItem: null
+
+specialAction: null
+
+itemDialogue: null
+
+actionDialogue: null
+
+up: null
+down: null
+north: null
+south: RoomK
+east: RoomJ
+west: RoomH

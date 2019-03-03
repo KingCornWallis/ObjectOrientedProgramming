@@ -1,0 +1,26 @@
+description: You are in a long hallway, with nothing but simple paintings on the wall. There are doors to the north, south, east, and west with the north door barred off with sturdy wood.
+
+shortDescription: You are in a hallway with the north door barred off with wood. There are open doors to the south, east, and west.
+
+specialDescription: You are in a hallway doors to the north, south, east, and west.
+
+exits: N, S, E, W
+
+lockedDirection: north
+
+takeItem: null
+
+useItem: axe
+
+specialAction: null
+
+itemDialogue: You broke through the wood nailed to the door with the axe! You can now go north.
+
+actionDialogue: null
+
+up: null
+down: null
+north: RoomC
+south: RoomE
+east: RoomA
+west: RoomD

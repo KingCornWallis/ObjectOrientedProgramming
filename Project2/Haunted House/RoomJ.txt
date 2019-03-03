@@ -1,0 +1,26 @@
+description: You are in a small bathroom. In the mirror you can see a glistening key but it appears to be on the other side of the mirror. There appears to be no way to get it, and there is a door to the west.
+
+shortDescription: You are in the bathroom. You can see an out of reach key through the mirror. There is a door the west.
+
+specialDescription: You are in the bathroom but the mirror has shattered! There is a door to the west and a staircase leading down.
+
+exits: W, D
+
+lockedDirection: null
+
+takeItem: key
+
+useItem: null
+
+specialAction: null
+
+itemDialogue: null
+
+actionDialogue: null
+
+up: null
+down: RoomG
+north: null
+south: null
+east: null
+west: RoomI

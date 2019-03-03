@@ -1,0 +1,26 @@
+description: You are in an old laundry room that is incredibly damp. There are stairs that lead down, but the way down is completely flooded. You notice a bucket filled with water in the corner, as well as closed draining valve. The valve looks too rusted to turn by hand. There is only a door to the east.
+
+shortDescription: You are in the laundry room. There is a door to the east, and flooded stairs that lead down. There is a heavily rusted drainage valve by the stairs.
+
+specialDescription: You are in the laundry room. There is a door to the east and stairs that lead down.
+
+exits: E, D
+
+lockedDirection: down
+
+takeItem: bucket
+
+useItem: wrench
+
+specialAction: null
+
+itemDialogue: You tightened the valve with the wrench and the water receded! You can now go down!
+
+actionDialogue: null
+
+up: null
+down: RoomG
+north: null
+south: null
+east: RoomB
+west: null

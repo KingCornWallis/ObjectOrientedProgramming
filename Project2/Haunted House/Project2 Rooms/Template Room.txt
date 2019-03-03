@@ -1,0 +1,28 @@
+description: text or null
+
+shortDescription: text or null
+
+Special Description: text or null
+
+//exits:
+
+lockedDirection: text or null
+
+takeItem: text or null
+
+useItem: text or null
+
+specialAction: text or null
+
+itemDialogue: text or null
+
+actionDialogue: text or null
+
+up: text or null
+down: text or null
+north: text or null
+south: text or null
+east: text or null
+west: text or null
+
+optional: firstRoom or lastRoom

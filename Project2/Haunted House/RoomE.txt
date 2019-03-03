@@ -1,0 +1,26 @@
+description: You are in a study. The walls are lined with books of no interest, and there is a fireplace against the wall still burning. You feel a strange draft moving towards the fireplace. There is a door to the north.
+
+shortDescription: You are in the study. The fireplace still burns with an odd draft moving flowing towards it.
+
+specialDescription: You are in the study. There is a door to the north and stairs that go up.
+
+exits: U, S
+
+lockedDirection: up
+ 
+takeItem: null
+
+useItem: bucket
+
+specialAction: null
+
+itemDialogue: You poured water on the fire and revealed a hidden staircase that goes up!
+
+actionDialogue: null
+
+up: RoomF
+down: null
+north: RoomB
+south: null
+east: null
+west: null

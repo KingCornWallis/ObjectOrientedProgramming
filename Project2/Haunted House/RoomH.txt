@@ -1,0 +1,26 @@
+description: You are in a wide unfurnished hallway. The ceiling above has collapsed and you can see into the room above. There is a door the east and west.
+
+shortDescription: You are in the hallway with a collapsed ceiling. Doors to the east and west.
+
+specialDescription: You are in the hallway with a collapsed ceiling. Doors to the east and west.
+
+exits: E, W
+
+lockedDirection: null
+
+takeItem: null
+
+useItem: null
+
+specialAction: null
+
+itemDialogue: null
+
+actionDialogue: null
+
+up: null
+down: null
+north: null
+south: null
+east: RoomI
+west: RoomA

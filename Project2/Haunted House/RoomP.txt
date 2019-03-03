@@ -1,0 +1,28 @@
+description: You’ve reached the final room. There is a dense fog, and the floor is sticky. An ominous figure approaches you from the far end. There is a door to the south. What will you do??
+
+shortDescription: You’ve reached the final room. An ominous figure approaches. There is a door to the south. What will you do? 
+
+specialDescription: You’ve reached the final room. An ominous figure approaches. There is a door to the south. What will you do? 
+
+exits: S
+
+lockedDirection: null
+
+takeItem: null
+
+useItem: cross
+
+specialAction: null
+
+itemDialogue: You threw the cross and hit the being! It slowly sinks into the floor, leaving a gleaming chest behind! You win!
+
+actionDialogue: null
+
+up: null
+down: null
+north: null
+south: RoomN
+east: null
+west: null
+
+finishRoom

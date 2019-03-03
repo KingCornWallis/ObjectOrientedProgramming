@@ -1,0 +1,28 @@
+description: You arrive in a very dark, but faintly lit room. There are doors in all directions, except the door to the south leaves the house. There is also a balcony above with rails, but the stairs leading up to it have collapsed. At your feet is the flashlight you have dropped.
+
+shortDescription: You are in the main room. There is a balcony up high with a collapsed staircase, and doors to North, East, and West. 
+
+specialDescription: You are in the main room. A rope allows you to reach the upper stairs, and there are doors to the north, east, and west.
+
+exits: N, E, W, U
+
+lockedDirection: up
+
+takeItem: flashlight
+
+useItem: rope
+
+specialActions: null
+
+itemDialogue: You threw your rope around the upper balcony rail and secured it with a knot! You can now go up.
+
+actionDialogue: null
+
+up: RoomN
+down: null
+north: RoomM
+south: null
+east: RoomH
+west: RoomB
+
+startRoom

@@ -1,0 +1,9 @@
+flashlight
+bucket
+wrench
+rope
+key
+telescope
+cross
+axe
+board

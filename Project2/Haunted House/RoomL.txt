@@ -1,0 +1,27 @@
+description: You are in a very similar observatory-like room, with windows peering out into the night sky. There is rope bundled up in the corner. There only way out are stairs leading down.
+
+shortDescription: You are in another observatory with windows. There are stairs leading down.
+
+specialDescription: You are in another observatory with windows. There are stairs leading down.
+
+
+exits: D
+
+lockedDirection: null
+
+takeItem: rope
+
+useItem: telescope
+
+specialAction: null
+
+itemDialogue: You saw a beacon in the distance that is blinking in an odd pattern. Your morse code skills revealed it to represent R-G-B-Y
+
+actionDialogue: null
+
+up: null
+down: RoomK
+north: null
+south: null
+east: null
+west: null
