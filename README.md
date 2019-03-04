@@ -1,1 +1,1 @@
-This Repository contains project for CS 290: Object Oriented Programming.
+This Repository contains projects for CS 290: Object Oriented Programming.
